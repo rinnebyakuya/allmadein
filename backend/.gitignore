@@ -1,0 +1,7 @@
+.env
+__pycache__
+database.sqlite3
+database.sqlite3-shm
+database.sqlite3-wal
+static/
+!static/images/productDefault.jpg
