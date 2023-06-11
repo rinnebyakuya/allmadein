@@ -1,0 +1,116 @@
+.main-header {
+    max-width: 1600px;
+    height: 305px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.header {
+    display: grid;
+    width: 1180px;
+    height: 310px;
+    margin: 50px auto 100px;
+    justify-content: center;
+}
+.logo {
+    display: block;
+    width: 276px;
+    height: 73px;
+    align-self: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.main-block {
+    display: flex;
+    width: 1210px;
+    height: 150px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.search-input {
+    width: 545px;
+    height: 50px;
+    border: 1px solid #707070;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 50px 0 0 50px;
+    margin-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    padding-left: 22px;
+    outline: none;
+}
+.search-btn {
+    width: 70px;
+    height: 50px;
+    float: left;
+    font-size: 25px;
+    background: #707070;
+    color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 0 50px 50px 0;
+    border-left: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.search-btn:hover {
+    background: #FFFFFF;
+    color: #707070;
+    transition: 0.25s;
+}
+/* .search-input::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+.search-input ::placeholder {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.5);
+    vertical-align: middle;
+}
+.place-ad_btn {
+    width: 175px;
+    height: 50px;
+    background: #3EC200;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 15px;
+}
+.place-ad_btn:hover {
+    background: #7FCC5B;
+    transition: 0.25s;
+}
+.profile-btn {
+    width: 50px;
+    height: 50px;
+    background: #707070;
+    color: #FFFFFF;
+    font-size: 24px;
+    border: 1px solid #707070;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+.profile-btn:hover {
+    background: #FFFFFF;
+    color: #707070;
+    transition: 0.25s;
+}

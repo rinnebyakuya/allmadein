@@ -1,0 +1,98 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    height: 580px;
+    margin: 15% auto;
+    background: #FEFEFE;
+    gap: 30px;
+}
+.popup-first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 920px;
+    height: 115px;
+}
+.user-popup {
+    height: 27px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #252525;
+}
+.popup-first h2 {
+    height: 55px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+    color: #252525;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+.modal-content textarea {
+    width: 880px;
+    height: 325px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    margin: 0 auto;
+    padding: 10px 22px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    resize: none;
+}
+.close-button {
+    color: #aaa;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.close-button:hover, .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#SubmitButton {
+    width: 255px;
+    height: 50px;
+    background: #3EC200;
+    border-radius: 25px;
+    border: none;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #FEFEFE;
+}
+#SubmitButton:hover {
+    background: #7FCC5B;
+    transition: 0.5s;
+}

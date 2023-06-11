@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>ALLMADEIN - main page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200px">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/components/card.css">
+    <link rel="stylesheet" href="styles/components/menu-categories.css">
+</head>
+<body>
+<section class="main-header">
+    <div class="header">
+        <img class="logo" src="images/logo.jpg">
+        <div class="main-block">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i style="width: 24px; margin-right: 10px; vertical-align: middle;" class="fa-solid fa-bars"></i>categories</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <div class="categories-container">
+                        <div class="menu">
+                            <a class="dropdown-item" href="#"><img class="menu-icons" src="images/menu-icons/clothes-hanger.png"><p>Clothes</p></a>
+                            <a class="dropdown-item" href="#"><img class="menu-icons" src="images/menu-icons/mobile-app.png"><p>Electronics</p></a>
+                            <a class="dropdown-item" href="#"><img class="menu-icons" src="images/menu-icons/washing-machine.png"><p>Household Appliances</p></a>
+                            <a class="dropdown-item" href="#"><img class="menu-icons" src="images/menu-icons/apartment.png"><p>Accommodation</p></a>
+                            <a class="dropdown-item" href="#"><img class="menu-icons" src="images/menu-icons/car.png"><p>Cars and supplies</p></a>
+                            <a class="dropdown-item" href="#"><img class="menu-icons" src="images/menu-icons/sofa.png"><p>Furniture</p></a>
+                            <a class="dropdown-item" href="#"><img class="menu-icons" src="images/menu-icons/book-stack.png"><p>Other</p></a>
+                        </div>
+                        <div class="column_container">
+                            <div class="column">
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Women’s Clothing</p></div>
+                                    <div class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-womens-clothing.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Men’s Clothing</p></div>
+                                    <div style="margin-top: -100px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-mens-clothing.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Children’s Clothing</p></div>
+                                    <div style="margin-top: -137px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-childrens-clothing.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Phones and tablets</p></div>
+                                    <div class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-phones.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Photo and video cameras</p></div>
+                                    <div style="margin-top: -100px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-cameras.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>computers</p></div>
+                                    <div style="margin-top: -137px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-computers.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>TV, audio systems</p></div>
+                                    <div style="margin-top: -174px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-tv.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Refrigerators</p></div>
+                                    <div class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-refrigerator.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Stoves and ovens</p></div>
+                                    <div style="margin-top: -100px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-stoves.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Washing machines</p></div>
+                                    <div style="margin-top: -137px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-washing-machines.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Climatic equipment</p></div>
+                                    <div style="margin-top: -174px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-climate.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Other appliances</p></div>
+                                    <div style="margin-top: -211px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-appliences.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Apartment for sale</p></div>
+                                    <div class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-apartment.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Houses for sale</p></div>
+                                    <div style="margin-top: -100px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-house.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Apartment rent</p></div>
+                                    <div style="margin-top: -137px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-apartment.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Houses rent</p></div>
+                                    <div style="margin-top: -174px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-house.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Cars</p></div>
+                                    <div class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-cars.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Motorcycles</p></div>
+                                    <div style="margin-top: -100px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-moto.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Buses and Trucks</p></div>
+                                    <div style="margin-top: -137px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-truck.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Special machinery</p></div>
+                                    <div style="margin-top: -174px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-spec-machinery.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Trailers</p></div>
+                                    <div style="margin-top: -211px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-trailers.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Spare parts and wheels</p></div>
+                                    <div style="margin-top: -248px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-spare-parts.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Accessories and equipment</p></div>
+                                    <div style="margin-top: -285px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-accesories.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Car care products</p></div>
+                                    <div style="margin-top: -322px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-car-care.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Beds and mattresses</p></div>
+                                    <div class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-bed.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Tables and Chairs</p></div>
+                                    <div style="margin-top: -100px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-table.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Sofas and armchairs</p></div>
+                                    <div style="margin-top: -137px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-sofa.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Kitchen sets</p></div>
+                                    <div style="margin-top: -174px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-kitchen.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Storing</p></div>
+                                    <div style="margin-top: -211px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-storing.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Services</p></div>
+                                    <div class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-services.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Sports and recreation</p></div>
+                                    <div style="margin-top: -100px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-sport.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Books and hobbies</p></div>
+                                    <div style="margin-top: -137px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-hobby.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Pets</p></div>
+                                    <div style="margin-top: -174px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-pets.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Job</p></div>
+                                    <div style="margin-top: -211px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img src="images/menu-images/menu-job.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="submenu2">
+                                    <div class="submenu-item"><p>Other ungrouped</p></div>
+                                    <div style="margin-top: -248px" class="submenu2-content">
+                                        <div class="submenu-image">
+                                            <img style="width: 361px; height: 361px;" src="images/menu-images/menu.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <form class="search-input" action=""> -->
+                <input class="search-input" id="search" type="text" placeholder="I am looking for..." name="search">
+            <!-- </form> -->
+            <button class="search-btn" onclick="search()"><i class="fa fa-search"></i></button>
+            <button class="place-ad_btn" onclick="place_an_ad()">place an ad</button>
+            <button class="profile-btn"><i class="fa-regular fa-user" onclick="redirectToProfilePage()"></i></button>
+        </div>
+    </div>
+</section>
+<section class="categories-section">
+    <div class="categories">
+        <h1 class="categories-title">CHOOSE A CATEGORY</h1>
+        <div class="block-categories">
+            <label class="categories-label">
+                <button><img style="width: 112px; height: 112px" src="images/categories-png/clothes-black-t-shirt.png"></button>
+                Clothes
+            </label>
+            <label class="categories-label">
+                <button><img style="width: 103px; height: 85px; margin-bottom: 10px" src="images/categories-png/electronics-iphone.png"></button>
+                Electronics
+            </label>
+            <label class="categories-label">
+                <button><img style="width: 112px; height: 112px" src="images/categories-png/household-aplliences-washing-machine.png"></button>
+                Household Appliances
+            </label>
+            <label class="categories-label">
+                <button><img style="width: 106px; height: 55px" src="images/categories-png/cars-and-supplies-lada-kalina.png"></button>
+                Cars and supplies
+            </label>
+            <label class="categories-label">
+                <button><img style="width: 100px; height: 106px; margin-bottom: 10px" src="images/categories-png/accomondation-apartment.png"></button>
+                Accommodation
+            </label>
+            <label class="categories-label">
+                <button><img style="width: 97px; height: 85px" src="images/categories-png/furniture.png"></button>
+                Furniture
+            </label>
+            <label class="categories-label">
+                <button><img style="width: 120px; height: 85px" src="images/categories-png/other-pile-of-books.png"></button>
+                Other
+            </label>
+        </div>
+    </div>
+</section>
+<section class="all-ads" id="all-ads">
+    <h1>ALL ADS</h1>
+    <div class="card-container" id="card-container">
+    </div>
+</section>
+
+<section class="footer">
+    <div class="footer-container">
+        <div class="footer-title">
+            <h1>ALLMADEIN</h1>
+        </div>
+        <div class="footer-links">
+            <a onclick="scrollToTop()">Categories</a>
+            <a onclick="scrollToTop()">Place an ad</a>
+            <a onclick="scrollToTop()">Profile</a>
+            <a onclick="scrollToTop()">About Us</a>
+        </div>
+        <div class="arrow-up">
+            <button onclick="scrollToTop()" class="arrow-btn"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+        <div class="footer-contacts">
+            <h2>+7 (000) 000 00 00</h2>
+            <a href="">hi@allmadein.com</a>
+        </div>
+    </div>
+</section>
+<script src="js/dropmenu.js"></script>
+<script src="js/submenu.js"></script>
+<script src="js/pull_all_products.js"></script>
+<script src="js/create_products_from_other_page.js"></script>
+<script src="js/create_products_from_category_btns.js"></script>
+<script src="js/go_to_profile_page.js"></script>
+<script src="js/animation/scroll-top.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

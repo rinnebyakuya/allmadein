@@ -1,0 +1,105 @@
+.footer {
+    max-width: 1600px;
+    height: 370px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.footer-container {
+    display: flex;
+    width: 1110px;
+    height: 233px;
+    margin: 46px auto 25px;
+    border-top: 0.5px solid #252525;
+}
+.footer-title {
+    margin: 90px 27px 0 0;
+    width: 163px;
+    height: 35px;
+}
+.footer-title h1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #252525;
+}
+.footer-links {
+    margin: 90px 0 0;
+    display: grid;
+    align-items: center;
+    width: 77px;
+    height: 144px;
+}
+.footer-links a {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #252525;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    height: 60px;
+    margin: 90px 0 0;
+    float: left;
+    width: 80%;
+}
+.footer-contacts h2 {
+    width: 196px;
+    height: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #252525;
+    white-space: nowrap;
+}
+.footer-contacts a {
+    width: 135px;
+    height: 21px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #252525;
+    text-decoration: none;
+}
+.arrow-up {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 90px 90px 0 515px;
+}
+.arrow-btn {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    border-radius: 100%;
+    border: none;
+    background: #FFFFFF;
+    color: #252525;
+}
+.arrow-btn i {
+    width: 30px;
+    height: 30px;
+    padding: 7px 0 0 0;
+}
+.arrow-btn:hover {
+    background: #3EC200;
+    color: #FFFFFF;
+}

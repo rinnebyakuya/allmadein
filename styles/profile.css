@@ -1,0 +1,169 @@
+.profile-section {
+  max-width: 1600px;
+  height: 405px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.profile {
+  margin: 50px auto;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1110px;
+  height: 305px;
+}
+.pfp-container {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  height: 305px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+.label-container {
+  width: 150px;
+  height: 305px;
+  margin: 0;
+}
+.value-container{
+  width: 410px;
+  height: 305px;
+  margin: 0 0 0 40px;
+
+}
+.label-container, .value-container {
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.label {
+  font-family: 'Nunito', sans-serif;
+  font-size: 26px;
+  color: #252525;
+  font-weight: bold;
+}
+/* .my-ads {
+  width: 1110px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+.my-ads h1 {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+} */
+.edit-btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #FEFEFE;
+  align-self: flex-start;
+  padding: 0;
+  margin: 50px 50px 0 auto;
+}
+.profile-section h1 {
+  width: 343px;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #252525;
+  margin: 0 auto 0 230px;
+  text-align: center;
+}
+.sign-out_btn {
+  width: 150px;
+  height: 50px;
+  background: #FF2222;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #FEFEFE;
+  margin: auto 25px 25px auto;
+}
+.sign-out_btn:hover {
+  background: #FF6C6C;
+    transition: 0.25s;
+}
+/* Make the profile photo container round */
+/* Make the profile photo container round */
+.profile-photo-container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 170px;
+  height: 170px;
+  position: relative;
+}
+
+/* Make the profile photo fit inside the container */
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the submit button */
+.upload-profile-btn {
+  background: #1A94ED;
+  color: #FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.upload-profile-btn:hover {
+  background: #4FAEF2;
+  transition: 0.25s;
+}
+
+/* Hide the file input field */
+.profile-photo-input {
+  display: none;
+}
+
+.delete-btn {
+  width: 240px;
+  height: 50px;
+  background: #FF2222;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #FEFEFE;
+  transition: 0.25s;
+  margin-top: 15px;
+}
+
+.delete-btn:hover {
+  background: #FF6C6C;
+    transition: 0.25s;
+}
+

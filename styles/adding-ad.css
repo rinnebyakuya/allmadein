@@ -1,0 +1,175 @@
+.profile-btn {
+    width: 50px;
+    height: 50px;
+    background: #707070;
+    color: #FFFFFF;
+    font-size: 24px;
+    border: 1px solid #707070;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.profile-btn:hover {
+    background: #FFFFFF;
+    color: #707070;
+    transition: 0.25s;
+}
+.adding-head {
+    display: flex;
+    max-width: 1600px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.adding-head img {
+    width: 169px;
+    height: 46.9px;
+    margin: 0 auto;
+}
+.adding-form {
+    width: 870px;
+    height: 810px;
+    margin: 50px auto 90px;
+    background: #FEFEFE;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.adding-form a {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    margin: 25px 0 8px 25px;
+}
+.adding-item {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+}
+.adding-item b {
+    width: 170px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #252525;
+    margin: auto 0 auto 50px;
+}
+.adding-item select {
+    width: 280px;
+    height: 50px;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 22px;
+    appearance: none;
+    background-image: url("/images/fonts-icons/Chevron_Down.svg");
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+    background-size: 24px 24px;
+}
+.add-product_title {
+    width: 590px;
+    height: 50px;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    padding: 0 22px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+}
+.adding-price {
+    width: 280px;
+    height: 50px;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    padding: 0 22px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+}
+.adding-item textarea {
+    width: 590px;
+    height: 100px;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    padding: 10px 22px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    resize: none;
+}
+.adding-location {
+    width: 280px;
+    height: 50px;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    padding: 0 22px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+}
+.adding-btn {
+    width: 280px;
+    height: 50px;
+    margin: 0 340px 0 250px;
+    background: #3EC200;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #FEFEFE;
+    cursor: pointer;
+}
+.adding-btn:hover {
+    background: #7FCC5B;
+    transition: 0.5s;
+}
+.uploader {
+    width: 100px;
+    height: 100px;
+    background: #EEEEEE;
+    border: 2px solid  #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color:  #707070;
+    cursor: pointer;
+}
+.preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: none;
+}

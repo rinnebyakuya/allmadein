@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>ALLMADEIN - Placing ad</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200px">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/adding-ad.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+<div class="adding-head">
+    <img style="cursor: pointer;" src="images/logo.jpg" alt="" onclick="window.location.href = 'main_page.html'">
+    <button class="profile-btn"><i class="fa-regular fa-user" onclick="redirectToProfilePage()"></i></button>
+</div>
+<form class="adding-form" action="" onsubmit="sendForm(); return false;">
+    <a href=""><img src="images/fonts-icons/return-arrow.svg" alt=""></a>
+    <label class="adding-item" for="categories">
+        <b>Category</b>
+        <select name="categories" id="categories">
+            <option value="0" disabled selected>Choose Category</option>
+            <option value="category1" >Clothes</option>
+            <option value="category2">Electronics</option>
+            <option value="category3">Household Appliences</option>
+            <option value="category4">Accomondation</option>
+            <option value="category5">Cars and Supplies</option>
+            <option value="category6">Furniture</option>
+            <option value="category7">Other</option>
+        </select>
+        <select name="subcategories" id="subcategories">
+            <option value="0" disabled selected>Choose Subcategory</option>
+        </select>
+    </label>
+    <label class="adding-item" for="">
+        <b>Product title</b>
+        <input class="add-product_title" type="text" maxlength="40" placeholder="40 characters" id="name-id">
+    </label>
+    <label class="adding-item" for="">
+        <b>Price</b>
+        <input class="adding-price" type="number" min="0.00" max="10000.00" step="0.01" id="price"/>
+        <i style="font-size: 26px; margin-left: -20px; color: #3EC200" class="fa-solid fa-dollar-sign"></i>
+    </label>
+    <label class="adding-item" for="">
+        <b style="margin-top: 0;">Description</b>
+        <textarea name="" id="description" cols="30" rows="10" maxlength="800" placeholder="800 characters"></textarea>
+    </label>
+    <label class="adding-item" for="">
+        <b>Photo</b>
+        <div class="uploader">
+            +
+            <input type="file" style="display: none;" id="image" name="image"/>
+        </div>
+        <div class="preview-container">
+            <img class="preview" src="" alt="Preview" />
+        </div>
+    </label>
+    <label class="adding-item" for="">
+        <b>Location</b>
+        <input class="adding-location" type="text" id="location">
+    </label>
+    <label class="adding-item" for="">
+        <input class="adding-btn" type="button" value="Place" onclick="sendForm()">
+    </label>
+</form>
+<section class="footer">
+    <div class="footer-container">
+        <div class="footer-title">
+            <h1>ALLMADEIN</h1>
+        </div>
+        <div class="footer-links">
+            <a onclick="scrollToTop()">Categories</a>
+            <a onclick="scrollToTop()">Place an ad</a>
+            <a onclick="scrollToTop()">Profile</a>
+            <a onclick="scrollToTop()">About Us</a>
+        </div>
+        <div class="arrow-up">
+            <button onclick="scrollToTop()" class="arrow-btn"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+        <div class="footer-contacts">
+            <h2>+7 (000) 000 00 00</h2>
+            <a href="">hi@allmadein.com</a>
+        </div>
+    </div>
+</section>
+<script src="js/photo-upload.js"></script>
+<!-- <script src="js/ad-select_category.js"></script> -->
+<script src="js/ad-select-category-test.js"></script>
+<script src="js/go_to_profile_page.js"></script>
+<script src="js/animation/scroll-top.js"></script>
+</body>
+</html>

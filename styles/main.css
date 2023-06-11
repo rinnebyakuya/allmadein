@@ -1,0 +1,84 @@
+.categories-section {
+    max-width: 1600px;
+    height: 315px;
+    margin: 100px auto;
+    justify-content: center;
+}
+.categories{
+    display: grid;
+    width: 1110px;
+    height: 315px;
+    margin: 0 auto;
+}
+.categories-title {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #252525;
+}
+.block-categories {
+    display: flex;
+    width: 1110px;
+    height: 210px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.categories-label {
+    display: grid;
+    width: 125px;
+    height: 170px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #252525;
+    text-align: center;
+}
+label.categories-label button {
+    display: block;
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    background: #EEEEEE;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+label.categories-label button:hover {
+    background: #7BBE5B;
+    transition: 0.5s;
+    transform: scale(1.25);
+}
+.all-ads {
+    width: 1110px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+  }
+.all-ads h1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 50px;
+    margin: 70px 0;
+}
+
